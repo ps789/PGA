@@ -21,7 +21,7 @@ import numpy as np
 import os, warnings
 import gzip, pickle
 import tensorflow as tf
-from scipy.misc import imread
+from cv2 import imread
 from scipy import linalg
 import pathlib
 import urllib
